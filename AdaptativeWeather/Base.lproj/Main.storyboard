@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,23 +20,23 @@
                         <viewControllerLayoutGuide type="bottom" id="dvF-EL-0f1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="aj9-hl-XaV">
-                                <rect key="frame" x="57" y="20" width="300" height="196"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="aj9-hl-XaV">
+                                <rect key="frame" x="218" y="20" width="300" height="165.66666666666666"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dot-fd-ejm" userLabel="TextContainer">
-                                <rect key="frame" x="0.0" y="236" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="205.66666666666663" width="736" height="208.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLm-6D-9Vy">
-                                        <rect key="frame" x="-99.666666666666686" y="10" width="613.33333333333326" height="177"/>
+                                        <rect key="frame" x="61.666666666666686" y="10" width="613" height="177.00000000000003"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
                                         <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwo-NF-S6s">
-                                        <rect key="frame" x="-20" y="187" width="454" height="295"/>
+                                        <rect key="frame" x="141" y="-104.66666666666666" width="454" height="295"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -59,7 +59,6 @@
                             <constraint firstItem="dot-fd-ejm" firstAttribute="top" secondItem="aj9-hl-XaV" secondAttribute="bottom" constant="20" id="PlX-jL-aMa"/>
                             <constraint firstItem="aj9-hl-XaV" firstAttribute="top" secondItem="3ca-cX-Rwx" secondAttribute="bottom" id="SZh-Zf-ZzW"/>
                             <constraint firstItem="dot-fd-ejm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XeI-xH-DVI"/>
-                            <constraint firstItem="aj9-hl-XaV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jUN-dV-Iv6"/>
                         </constraints>
                     </view>
                 </viewController>
